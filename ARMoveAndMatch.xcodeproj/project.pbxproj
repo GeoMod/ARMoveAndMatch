@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		189A797126BA837500FBB788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A797026BA837500FBB788 /* AppDelegate.swift */; };
 		189A797326BA837500FBB788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A797226BA837500FBB788 /* ViewController.swift */; };
-		189A797526BA837500FBB788 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 189A797426BA837500FBB788 /* Experience.rcproject */; };
 		189A797826BA837500FBB788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A797626BA837500FBB788 /* Main.storyboard */; };
 		189A797A26BA837700FBB788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189A797926BA837700FBB788 /* Assets.xcassets */; };
 		189A797D26BA837700FBB788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189A797B26BA837700FBB788 /* LaunchScreen.storyboard */; };
 		189A798726BA837700FBB788 /* ARMoveAndMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A798626BA837700FBB788 /* ARMoveAndMatchTests.swift */; };
 		189A799126BA837700FBB788 /* ARMoveAndMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A799026BA837700FBB788 /* ARMoveAndMatchUITests.swift */; };
+		189A799E26BA85BF00FBB788 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 189A799D26BA85BF00FBB788 /* Experience.rcproject */; };
+		189A79A526BA865F00FBB788 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A79A026BA865F00FBB788 /* Utilities.swift */; };
+		189A79A626BA865F00FBB788 /* FocusSquare+FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A79A126BA865F00FBB788 /* FocusSquare+FocusSquareSegment.swift */; };
+		189A79A726BA865F00FBB788 /* FocusSquare Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 189A79A226BA865F00FBB788 /* FocusSquare Readme.md */; };
+		189A79A926BA865F00FBB788 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189A79A426BA865F00FBB788 /* FocusSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		189A796D26BA837500FBB788 /* ARMoveAndMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMoveAndMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A797026BA837500FBB788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189A797226BA837500FBB788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		189A797426BA837500FBB788 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		189A797726BA837500FBB788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189A797926BA837700FBB788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189A797C26BA837700FBB788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +49,11 @@
 		189A798626BA837700FBB788 /* ARMoveAndMatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMoveAndMatchTests.swift; sourceTree = "<group>"; };
 		189A798C26BA837700FBB788 /* ARMoveAndMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMoveAndMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189A799026BA837700FBB788 /* ARMoveAndMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMoveAndMatchUITests.swift; sourceTree = "<group>"; };
+		189A799D26BA85BF00FBB788 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		189A79A026BA865F00FBB788 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		189A79A126BA865F00FBB788 /* FocusSquare+FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FocusSquare+FocusSquareSegment.swift"; sourceTree = "<group>"; };
+		189A79A226BA865F00FBB788 /* FocusSquare Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "FocusSquare Readme.md"; sourceTree = "<group>"; };
+		189A79A426BA865F00FBB788 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,9 @@
 			children = (
 				189A797026BA837500FBB788 /* AppDelegate.swift */,
 				189A797226BA837500FBB788 /* ViewController.swift */,
-				189A797426BA837500FBB788 /* Experience.rcproject */,
+				189A799D26BA85BF00FBB788 /* Experience.rcproject */,
 				189A797626BA837500FBB788 /* Main.storyboard */,
+				189A799F26BA865F00FBB788 /* AR CoachingView */,
 				189A797926BA837700FBB788 /* Assets.xcassets */,
 				189A797B26BA837700FBB788 /* LaunchScreen.storyboard */,
 			);
@@ -120,6 +129,17 @@
 				189A799026BA837700FBB788 /* ARMoveAndMatchUITests.swift */,
 			);
 			path = ARMoveAndMatchUITests;
+			sourceTree = "<group>";
+		};
+		189A799F26BA865F00FBB788 /* AR CoachingView */ = {
+			isa = PBXGroup;
+			children = (
+				189A79A226BA865F00FBB788 /* FocusSquare Readme.md */,
+				189A79A426BA865F00FBB788 /* FocusSquare.swift */,
+				189A79A126BA865F00FBB788 /* FocusSquare+FocusSquareSegment.swift */,
+				189A79A026BA865F00FBB788 /* Utilities.swift */,
+			);
+			path = "AR CoachingView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +249,7 @@
 				189A797D26BA837700FBB788 /* LaunchScreen.storyboard in Resources */,
 				189A797A26BA837700FBB788 /* Assets.xcassets in Resources */,
 				189A797826BA837500FBB788 /* Main.storyboard in Resources */,
+				189A79A726BA865F00FBB788 /* FocusSquare Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189A79A626BA865F00FBB788 /* FocusSquare+FocusSquareSegment.swift in Sources */,
+				189A79A926BA865F00FBB788 /* FocusSquare.swift in Sources */,
 				189A797326BA837500FBB788 /* ViewController.swift in Sources */,
 				189A797126BA837500FBB788 /* AppDelegate.swift in Sources */,
-				189A797526BA837500FBB788 /* Experience.rcproject in Sources */,
+				189A79A526BA865F00FBB788 /* Utilities.swift in Sources */,
+				189A799E26BA85BF00FBB788 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
