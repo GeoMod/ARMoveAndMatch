@@ -12,8 +12,6 @@ import UIKit
 class ARLettersView: UIViewController {
     
     @IBOutlet var arView: ARView!
-
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +63,7 @@ extension ARLettersView: ARCoachingOverlayViewDelegate {
 	}
 
 	func setupCoachingOverlay() {
-		// Called in ViewDidLoad
+		// Called in viewDidLoad
 		let coachingOverlay = ARCoachingOverlayView(frame: arView.frame)
 		coachingOverlay.translatesAutoresizingMaskIntoConstraints = false
 		arView.addSubview(coachingOverlay)
@@ -79,9 +77,4 @@ extension ARLettersView: ARCoachingOverlayViewDelegate {
 		// Tell the coaching overlay which ARSession it should be monitoring
 		coachingOverlay.session = arView.session
 	}
-
-
-
-
-
 }
